@@ -11,6 +11,10 @@ $VeryDarkBlue: hsl(234, 12%, 34%);
 $GrayishBlue: hsl(229, 6%, 66%);
 $VeryLightGray: hsl(0, 0%, 98%);
 
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -41,6 +45,30 @@ main {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        color: $VeryDarkBlue;
+    }
+
+    article {
+        width: 33.330%;
+        height: 300px;
+        background: white;
+        position: relative;
+        text-align: left;
+        padding: 15px;
+        padding-right: 30px;
+        color: $GrayishBlue;
+        border-top: 5px solid $Red;
+        h2 {
+            color: $VeryDarkBlue;
+            margin-bottom: 5px;
+        }
+        img {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+        }
+
+
     }
 
 }

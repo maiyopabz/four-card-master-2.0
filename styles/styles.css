@@ -1,4 +1,9 @@
 /*Colors*/
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -30,5 +35,29 @@ main p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  color: #4c4e61;
+}
+
+main article {
+  width: 33.330%;
+  height: 300px;
+  background: white;
+  position: relative;
+  text-align: left;
+  padding: 15px;
+  padding-right: 30px;
+  color: #a3a5ae;
+  border-top: 5px solid #ea5353;
+}
+
+main article h2 {
+  color: #4c4e61;
+  margin-bottom: 5px;
+}
+
+main article img {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
