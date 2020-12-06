@@ -39,8 +39,9 @@ main p {
 }
 
 main article {
-  width: 33.330%;
+  width: 33.33%;
   height: 300px;
+  display: inline-block;
   background: white;
   position: relative;
   text-align: left;
@@ -48,6 +49,14 @@ main article {
   padding-right: 30px;
   color: #a3a5ae;
   border-top: 5px solid #ea5353;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 20px rgba(163, 165, 174, 0.1);
+          box-shadow: 0px 10px 20px rgba(163, 165, 174, 0.1);
+  margin: 15px;
+}
+
+main article:first-child {
+  margin-top: 50%;
 }
 
 main article h2 {
@@ -57,7 +66,7 @@ main article h2 {
 
 main article img {
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   right: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
