@@ -2,7 +2,7 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 👋 live page => https://maiyopabz.github.io/four-card-master-2.0/
 
 Thanks for checking out this front-end coding challenge.
 
